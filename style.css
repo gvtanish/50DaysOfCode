@@ -23,7 +23,6 @@
   --Background: #333;
   --themeSwitch: #eee;
   --themeSwitch-text: black;
-  transition: 0.5s;
 }
 
 body {
@@ -128,12 +127,14 @@ header h1 span {
   content: '\f186';
   font-family: fontawesome;
   color: var(--themeSwitch-text);
+  transition: 0.5s;
 }
 
 .dark .themeSwitch::before {
   content: '\f185';
   font-family: fontawesome;
   color: var(--themeSwitch-text);
+  transition: 0.5s;
 }
 
 .themeSwitch::after {
